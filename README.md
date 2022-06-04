@@ -56,3 +56,10 @@ CREATE TABLE cadastro_do_aluno (
   CPF_do_aluno INT(11),
   emails TEXT
 );
+
+
+SELECT * FROM projeto_mod3.alunos;
+
+INSERT INTO alunos(CPF_do_aluno, nome_do_aluno, idade_do_aluno, id_da_turma, taxa_de_aprovacao)
+VALUES(4583943, 'karla', 19, 19, 90),(4553943, 'matheus', 22, 19, 90),(4567943, 'lucas', 19, 19, 90),
+(4099433, 'thaynara', 19, 15, 90),(9999999, 'molly', 19, 15, 90)
