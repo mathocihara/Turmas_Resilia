@@ -54,7 +54,7 @@ CREATE TABLE Entregas (
 CREATE TABLE cadastro_do_aluno (
   ID INT PRIMARY KEY,
   CPF_do_aluno INT(11),
-  emails TEXT
+  emails CHAR(100)
 );
 
 
