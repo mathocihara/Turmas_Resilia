@@ -54,7 +54,7 @@ CREATE TABLE Entregas (
 CREATE TABLE cadastro_do_aluno (
   ID INT PRIMARY KEY,
   CPF_do_aluno INT(11),
-  emails CHAR(100)
+  emails VARCHAR(100)
 );
 
 
@@ -63,3 +63,12 @@ SELECT * FROM projeto_mod3.alunos;
 INSERT INTO alunos(CPF_do_aluno, nome_do_aluno, idade_do_aluno, id_da_turma, taxa_de_aprovacao)
 VALUES(4583943, 'karla', 19, 19, 90),(4553943, 'matheus', 22, 19, 90),(4567943, 'lucas', 19, 19, 90),
 (4099433, 'thaynara', 19, 15, 90),(9999999, 'molly', 19, 15, 90)
+
+
+SELECT * FROM projeto_mod3.cadastro_do_aluno;
+INSERT INTO cadastro_do_aluno (ID, CPF_do_aluno, emails)
+VALUES (0001,4099433,'thaynara@gmail.com'),(0002,4099433,'thaynaraseloko@gmail.com'),(0003,4099433,'thaynaraoficial@gmail.com'),
+(0004,4553943,'matheus@gmail.com'),(0005,4553943,'matheuslopes@gmail.com'),(0006,4553943,'mathsoka@gmail.com'),
+(0007,4567943,'lucaslopes@gmail.com'),(0008,4567943,'lucassouza@gmail.com'),(0009,4567943,'lukitas@gmail.com'),
+(0010,4583943,'karllaSouza@gmail.com'),(0011,4583943,'karlota@gmail.com'),(0012,4583943,'karladesouza@gmail.com'),
+(0013,9999999,'CarolinaMolly@gmail.com'),(0014,9999999,'CarolMolly@gmail.com'),(0015,9999999,'@Cally@gmail.com')
