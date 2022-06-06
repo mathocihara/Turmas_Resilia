@@ -11,7 +11,8 @@ CREATE TABLE Facilitadores (
 
 
 CREATE TABLE Cursos (
-  id_do_cursos INT PRIMARY KEY,
+  id INT PRIMARY KEY,
+  id_do_cursos INT,
   nome_do_cursos VARCHAR(100),
   id_do_facilitador INT,
   turmas_cursando_a_materia INT
